@@ -21,4 +21,4 @@ def resize_images_in_directory(directory, max_width=1024):
 print("処理開始")
 directory = "./imagefile"
 resize_images_in_directory(directory)
-print("処理終了")
+print("処理終了：画像ファイルをresizeして、上書き保存しました。")
