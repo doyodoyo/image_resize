@@ -17,6 +17,8 @@ def resize_images_in_directory(directory, max_width=1024):
                     # Save the resized image
                     img_resized.save(file_path)
 
-# 使用例
-directory = "./imagefile"  # この部分に特定のディレクトリパスを設定してください
+
+print("処理開始")
+directory = "./imagefile"
 resize_images_in_directory(directory)
+print("処理終了")
